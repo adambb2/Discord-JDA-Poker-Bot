@@ -8,19 +8,19 @@ Progress as of 6/22/2018:
 Users are able to start a game and the Poker bot can deal cards to users who join. The cards are displayed in a private channel while betting and all other game activites occur in the public chat channel. The Poker bot also keeps up with the game time in seconds and gives users a certain amount of time for their turns.
 
   Working Commands List:
-  ">gameSetup"
-  ">joinGame"
-  ">getPlayers"
-  ">Fold"
-  ">FoldH"
-  ">Bet"
-  ">endGame"
+  >">gameSetup"
+  >">joinGame"
+  >">getPlayers"
+  >">Fold"
+  >">FoldH"
+  >">Bet"
+  >">endGame"
 
   Command Descritpion:
-  ">gameSetup" starts a new game
-  ">joinGame" joins the current game if the game is still in the start up phase (first 40 seconds) and there are less than 10 players
-  ">getPlayers" returns a list of players in the game
-  ">Fold folds" and shows your hand in the public channel
-  ">FoldH folds" without showing hand
-  ">Bet x" allows the player to bet X amount of his/her chips as long as he/she has enough
-  ">endGame" ends the currentgame by creating a fresh game object
+  >">gameSetup" starts a new game
+  >">joinGame" joins the current game if the game is still in the start up phase (first 40 seconds) and there are less than 10 players
+  >">getPlayers" returns a list of players in the game
+  >">Fold folds" and shows your hand in the public channel
+  >">FoldH folds" without showing hand
+  >">Bet x" allows the player to bet X amount of his/her chips as long as he/she has enough
+  >">endGame" ends the currentgame by creating a fresh game object
