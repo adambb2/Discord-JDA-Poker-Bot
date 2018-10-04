@@ -18,9 +18,15 @@ Users are able to start a game and the Poker bot can deal cards to users who joi
 
   Command Descritpion:
   >">gameSetup" starts a new game
+  
   >">joinGame" joins the current game if the game is still in the start up phase (first 40 seconds) and there are less than 10 players
+  
   >">getPlayers" returns a list of players in the game
-  >">Fold folds" and shows your hand in the public channel
-  >">FoldH folds" without showing hand
+  
+  >">Fold" folds and shows your hand in the public channel
+  
+  >">FoldH" folds without showing hand
+  
   >">Bet x" allows the player to bet X amount of his/her chips as long as he/she has enough
+  
   >">endGame" ends the currentgame by creating a fresh game object
